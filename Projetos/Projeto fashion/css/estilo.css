@@ -1,0 +1,197 @@
+body{
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Parte 1 */
+
+header{
+    background-image: url(../imagens/topo.jpg);
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    height: 550px;
+
+    
+}
+
+.Borda{
+    color: white;
+    background-color: #06171F;
+    height: 50px;
+}
+
+.Borda img{
+    display: block;
+    margin-top: 8px;
+    float: left;
+    margin-left: 200px;
+}
+
+.Borda ul{
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+.Borda li{
+    display: inline-block;
+
+    list-style: none;
+    text-align: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #486574;
+    text-indent: 20px;
+    
+    margin: 16px;
+    margin-right: 10px;
+
+}
+
+.Borda a{
+    letter-spacing: 3px;
+    color: #486574;
+    text-decoration: none;
+}
+
+.Borda a:hover{
+    color: #75acc5;
+}
+
+/* Parte 2 */
+
+.Product{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Portfolio{
+    text-align: center;
+    
+    line-height: 35px;
+
+}
+
+.Portfolio h2{
+    font-size: 36px;
+}
+
+.Portfolio p{
+    color: #696969;
+}
+
+.Galerry{
+    margin-top: 50px;
+    height: 360px;
+    position: relative;
+}
+
+.window{
+    position: absolute;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #696969;
+}
+
+.window h3{
+    color: #414141;
+}
+
+.img1{
+    position: absolute;
+    left: 5%;
+}
+
+.img2{
+    position: absolute;
+    left: 38%;
+    right: 38%;
+}
+
+.img3{
+    position: absolute;
+    right: 5%;
+}
+
+/* Parte 3 */
+
+.About{
+    background: url(../imagens/bg_detalhe.png);
+    height: 550px;
+    width: 100%;
+    
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+
+    position: relative;
+}
+
+.About-interno{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.About h4{
+    width: 80%;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.About p{
+    position: relative;
+    top: -20px;
+    width: 50%;
+    line-height: 22px;
+}
+
+/* Parte 4 */
+
+.Contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #244e61;
+}
+
+/* Parte 5 */
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:95%;
+    width:100%;
+    position:absolute;
+}
+
+/* Parte 6 */
+
+footer{
+    background-color: #06171F;
+    color: #75acc5;
+    text-align: center;
+    height: 50px;
+    padding-top: 8px;
+    letter-spacing: 5px;
+}
