@@ -1,8 +1,11 @@
 body{
-    font-family: sans-serif;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-family: tahoma, arial, sans-serif;
+    
+}
+
+#principal{
+    width: 1024px;
+    margin: 40px auto;
 }
 
 /* Parte 1 */
@@ -21,7 +24,7 @@ header{
 
 .Borda{
     color: white;
-    background-color: #06171F;
+    background-color: #162028;
     height: 50px;
 }
 
@@ -57,6 +60,7 @@ header{
     letter-spacing: 3px;
     color: #486574;
     text-decoration: none;
+    transition: color 0.2s linear;
 }
 
 .Borda a:hover{
@@ -65,17 +69,14 @@ header{
 
 /* Parte 2 */
 
-.Product{
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+
 
 .Portfolio{
     text-align: center;
     
-    line-height: 35px;
+    padding: 50px 100px;
 
+    line-height: 35px;
 }
 
 .Portfolio h2{
@@ -87,84 +88,77 @@ header{
 }
 
 .Galerry{
-    margin-top: 50px;
-    height: 360px;
-    position: relative;
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
 }
 
 .window{
-    position: absolute;
+    width: 32%;
+    float: left;
     text-align: center;
-    letter-spacing: 2px;
+    
     text-transform: uppercase;
-    color: #696969;
 }
 
 .window h3{
     color: #414141;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
 }
 
-.img1{
-    position: absolute;
-    left: 5%;
+.window p{
+    color: #696969;
+    letter-spacing: 2px;
 }
 
-.img2{
-    position: absolute;
-    left: 38%;
-    right: 38%;
-}
-
-.img3{
-    position: absolute;
-    right: 5%;
-}
 
 /* Parte 3 */
 
 .About{
-    background: url(../imagens/bg_detalhe.png);
-    height: 550px;
-    width: 100%;
-    
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    padding: 70px 90px 110px 90px;
     color:white;
 
-    position: relative;
-}
+    background-position: bottom right;
+    background-repeat: no-repeat;
 
-.About-interno{
-    position: absolute;
-    top: 50px;
-    left: 80px;
+    
 }
 
 .About h4{
-    width: 80%;
-    font-size: 48px;
+    width: 90%;
+    font-size: 50px;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .About p{
-    position: relative;
-    top: -20px;
-    width: 50%;
     line-height: 22px;
+    width: 65%;
 }
 
 /* Parte 4 */
 
-.Contact{
+#Contact{
     margin-top: 50px;
     margin-bottom: 50px;
+    
+}
+
+#Contact address{
     text-align: center;
     font-size: 26px;
-    line-height: 10px;
     text-transform: uppercase;
     color: #244e61;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#email{
+    font-size: 18px;
 }
 
 /* Parte 5 */
@@ -192,6 +186,6 @@ footer{
     color: #75acc5;
     text-align: center;
     height: 50px;
-    padding-top: 8px;
+    padding-top: 1px;
     letter-spacing: 5px;
 }
