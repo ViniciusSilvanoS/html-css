@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira{
+    text-align: center;
+}
+
+.principal li{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
