@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco-pai{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.bloco{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(47, 79, 79, 0.7);
+}
+
+.bloco h1{
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.bloco p{
+    margin-top: 5px;
+    margin-left: 5px;
+}

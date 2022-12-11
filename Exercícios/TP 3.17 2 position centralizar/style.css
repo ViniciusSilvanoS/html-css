@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .bloco-pai{
+
+} */
+
+body{
+    background-color: #ccc;
+}
+
+.bloco{
+    width: 700px;
+    height: 700px;
+    padding: 10px;
+    background-color: khaki;
+    position: absolute;
+    left: calc(50vw - 350px);
+}
+
+.bloco h1{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 0.09em 0.09em rgba(204, 204, 204, 0.564);
+}
+
+.bloco img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.bloco p{
+    font-size: 18px;
+}
