@@ -1,0 +1,103 @@
+body{
+    background-color: #F5F5DC;
+}
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+main h1{
+    font-size: 14pt;
+    margin: 50px 0 25px 0;
+}
+
+main h1 #date-red{
+    color: red;
+}
+
+/* ---------------------------- section filmes --------------------------------- */
+
+main section{
+    /* background-color: #F5F5DC; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+main div.card{
+    width: 300px;
+    height: 600px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    position: relative;
+    
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div.card h2{
+    margin: 30px 0 15px 0;
+    font-size: 14pt;
+}
+
+main div.card p{
+    font-size: 10pt;
+    color: green;
+
+    margin-top: 15px;
+}
+
+.iconx{
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.img-capa{
+    width: 200px;
+}
+
+/* ---------------------------- section table --------------------------------- */
+
+section.table-filmes{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.table-filmes table{   
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    
+    font-weight: bold;
+
+    width: 300px;
+}
+
+.table-filmes table th{
+    color: brown;
+}
+
+.table-filmes table td, th{
+    border: 1px solid blueviolet;
+    text-align: center;
+    padding: 2px;
+}
+
+.table-filmes tbody tr:nth-child(2n + 1){
+    color: green;
+}
+
+.table-filmes thead td{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14pt;
+}

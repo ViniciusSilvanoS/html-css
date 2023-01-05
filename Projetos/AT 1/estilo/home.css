@@ -1,0 +1,81 @@
+/* ---------------------------- body section 1 --------------------------------- */
+
+main{
+    display: flex;
+}
+
+/* body{
+    display: flex;
+} */
+
+body section{
+    width: 50vw;
+}
+
+.home-esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5DC;
+}
+
+.home-esquerda h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-esquerda #body-p1{
+    margin-top: 10px;
+}
+
+.home-esquerda #body-p2{
+    margin-top: 15px;
+}
+
+#section1-p{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 11pt;
+    color: white;
+}
+
+#section1-p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: blue;
+    border: 3px solid orange;
+    border-radius: 5px;
+    /* margin-bottom: px; */
+}
+
+#section1-p a:hover{
+    opacity: 0.7;
+}
+
+/* ---------------------------- body section 2 --------------------------------- */
+
+.home-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #ccc;
+    /* position: relative; */
+}
+
+.home-direita h1{
+    text-align: center;
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.home-direita .home-video{
+    margin-top: 100px;
+}
+
+.home-direita p{
+    margin-top: 20px;
+    color: darkblue;
+}
